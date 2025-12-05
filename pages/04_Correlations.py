@@ -1,6 +1,6 @@
 
 
-# pages/04_Correlations.py — Page complète et autonome
+# pages/04_Correlations.py
 
 import os
 import numpy as np
@@ -18,7 +18,7 @@ except Exception:
 # Config page
 # =========================
 st.set_page_config(
-    page_title="CrashAlert – Corrélations",
+    page_title="Accidentologie HDS – Corrélations",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="collapsed",

@@ -1,6 +1,6 @@
 
 
-# pages/03_Analyse_spatiale.py — version optimisée (FR)
+# pages/03_Analyse_spatiale.py
 import os
 import numpy as np
 import pandas as pd
@@ -17,7 +17,7 @@ except Exception:
 # Configuration de la page
 # -------------------------------
 st.set_page_config(
-    page_title="CrashAlert – Analyse spatiale",
+    page_title="Accidentologie HDS – Analyse spatiale",
     page_icon="🗺️",
     layout="wide",
     initial_sidebar_state="collapsed",

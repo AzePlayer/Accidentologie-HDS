@@ -1,7 +1,3 @@
-
-
-
-
 # pages/01_Accueil.py — Accueil avec bandeau de navigation réutilisable
 import numpy as np
 import pandas as pd
@@ -11,7 +7,7 @@ import plotly.graph_objects as go
 from ui_nav import nav_bar
 
 st.set_page_config(
-    page_title="CrashAlert – Accueil",
+    page_title="Accidentologie HDS – Accueil",
     page_icon="🚗",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -56,7 +52,7 @@ col_logo, col_title = st.columns([0.10, 0.90])
 with col_logo:
     st.markdown("### 🚗")
 with col_title:
-    st.markdown("# CrashAlert")
+    st.markdown("# Accidentologie HDS")
     st.caption("Visualiser les statistiques des accidents selon divers critères.")
 
 # ===== Bandeau de navigation (réutilisable) =====
